@@ -4,27 +4,205 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* KMD Design Language — brand green #1F614E */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1F614E;
+  --ifm-color-primary-dark: #1a5343;
+  --ifm-color-primary-darker: #174a3c;
+  --ifm-color-primary-darkest: #113a2f;
+  --ifm-color-primary-light: #277a62;
+  --ifm-color-primary-lighter: #2e8a6f;
+  --ifm-color-primary-lightest: #3aab8a;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Typography */
+  --ifm-font-family-base: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.65;
+
+  /* Spacing & Layout */
+  --ifm-global-radius: 6px;
+  --ifm-button-border-radius: 24px;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #1F614E;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #a8e6cf;
+  --ifm-navbar-height: 64px;
+  --ifm-navbar-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+
+  /* Footer */
+  --ifm-footer-background-color: #153f33;
+  --ifm-footer-color: #c8e0d6;
+  --ifm-footer-link-color: #c8e0d6;
+  --ifm-footer-link-hover-color: #ffffff;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* ---- Navbar ---- */
+.navbar {
+  padding: 0 1.5rem;
+  box-shadow: var(--ifm-navbar-shadow);
+}
+
+.navbar__title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar__link {
+  color: #ffffff !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.navbar__link:hover {
+  color: #a8e6cf !important;
+}
+
+.navbar__logo img {
+  height: 32px;
+}
+
+/* ---- Sidebar ---- */
+.menu__link {
+  font-size: 0.9rem;
+  border-radius: var(--ifm-global-radius);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: rgba(31, 97, 78, 0.08);
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+.menu__list-item-collapsible:hover {
+  background-color: rgba(31, 97, 78, 0.04);
+}
+
+/* ---- Buttons ---- */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  border-radius: var(--ifm-button-border-radius);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-light);
+  border-color: var(--ifm-color-primary-light);
+  transform: translateY(-1px);
+}
+
+/* ---- Footer ---- */
+.footer {
+  background-color: var(--ifm-footer-background-color);
+  padding: 2.5rem 0 1.5rem;
+}
+
+.footer__title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.75rem;
+}
+
+.footer__link-item {
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+.footer__copyright {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ---- Doc pages ---- */
+.markdown h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+.markdown h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+article {
+  max-width: 820px;
+}
+
+/* ---- Breadcrumbs ---- */
+.breadcrumbs__link {
+  font-size: 0.85rem;
+}
+
+/* ---- Admonitions / alerts ---- */
+.alert {
+  border-radius: var(--ifm-global-radius);
+}
+
+/* ---- Scrollbar (subtle) ---- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(31, 97, 78, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(31, 97, 78, 0.35);
+}
+
+/* ---- Dark mode ---- */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #3aab8a;
+  --ifm-color-primary-dark: #329878;
+  --ifm-color-primary-darker: #2e8e70;
+  --ifm-color-primary-darkest: #24735b;
+  --ifm-color-primary-light: #4bb899;
+  --ifm-color-primary-lighter: #55bda0;
+  --ifm-color-primary-lightest: #76ccb5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-background-color: #153f33;
+  --ifm-footer-background-color: #0e2a22;
+}
+
+[data-theme='dark'] .markdown h1 {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist) {
+  background-color: rgba(58, 171, 138, 0.1);
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
 }

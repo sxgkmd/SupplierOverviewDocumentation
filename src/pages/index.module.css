@@ -4,20 +4,192 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
   position: relative;
+  width: 100%;
+  height: 400px;
+  background: url('/img/TEAMS-Background-v2.jpg') center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 58, 47, 0.55);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+.heroTitle {
+  color: #ffffff;
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 520px;
+}
+
+.searchInput {
+  flex: 1;
+  height: 48px;
+  padding: 0 1.25rem;
+  font-size: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-right: none;
+  border-radius: 24px 0 0 24px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  outline: none;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.searchInput::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.searchInput:focus {
+  border-color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.searchButton {
+  height: 48px;
+  width: 52px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-left: none;
+  border-radius: 0 24px 24px 0;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.searchButton:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.heroSubtitle {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin-top: 0.75rem;
+}
+
+.infoSection {
+  padding: 3.5rem 0 4.5rem;
+  background: var(--ifm-background-surface-color, #f7faf9);
+}
+
+[data-theme='dark'] .infoSection {
+  background: var(--ifm-background-color);
+}
+
+.infoCard {
+  max-width: 760px;
+  margin: 0 auto;
+  background: var(--ifm-card-background-color, #ffffff);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(31, 97, 78, 0.06);
+  padding: 2.5rem 3rem;
+  border: 1px solid rgba(31, 97, 78, 0.06);
+}
+
+[data-theme='dark'] .infoCard {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.infoHeading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.infoText {
+  color: var(--ifm-font-color-secondary, #4a5568);
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.tipsList {
+  margin: 0.5rem 0 1rem;
+  padding-left: 1.25rem;
+  line-height: 1.9;
+  color: var(--ifm-font-color-base);
+}
+
+.tipsList li {
+  margin-bottom: 0.25rem;
+}
+
+.tipBox {
+  background: rgba(31, 97, 78, 0.04);
+  color: var(--ifm-font-color-base);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+[data-theme='dark'] .tipBox {
+  background: rgba(58, 171, 138, 0.08);
+}
+
+.ctaButtons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    height: 300px;
   }
-}
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .searchForm {
+    max-width: 100%;
+  }
+
+  .searchInput {
+    height: 44px;
+    font-size: 0.95rem;
+  }
+
+  .searchButton {
+    height: 44px;
+    width: 48px;
+  }
+
+  .infoCard {
+    padding: 1.5rem;
+    margin: 0 1rem;
+  }
+
+  .infoSection {
+    padding: 2rem 0 3rem;
+  }
 }

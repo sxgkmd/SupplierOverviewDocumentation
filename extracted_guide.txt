@@ -1,0 +1,1174 @@
+
+
+    
+
+Brugerdokumentation til KMD Supplier Overview, Einar Kornerup
+
+     
+
+Revideret d. 30.10.25
+
+2025
+
+Indholdsfortegnelse
+
+1	Kom godt i gang	3
+
+1.1	Hvorfor skal jeg anvende løsningen?	3
+
+1.2	Første login	3
+
+1.3	Andet login	3
+
+1.3.1	Hvem kan oprette Leverandøradministratorer i Løsningen?	4
+
+1.4	Skabelon til brugerdokumentation	5
+
+1.5	Ikoner i Løsningen	5
+
+2	Tilgå løsningen	6
+
+3	Log ind og log ud	6
+
+3.1	Log ind (andet login)	6
+
+3.2	Log ud	7
+
+4	Min virksomhed – Overblik	8
+
+4.1	Overblik over din virksomhedsdetaljer	8
+
+4.1.1	Dashboard	9
+
+4.2	Min virksomhed – Projekter	9
+
+4.3	Min virksomhed – Medarbejdere	10
+
+4.3.1	Vis dokument	15
+
+4.4	Min virksomhed – Dokumenter	15
+
+5	Leverandører	16
+
+5.1	Opret dansk leverandør til leverandørliste	16
+
+5.2	Opret udenlandsk leverandør til leverandørliste	21
+
+6	Projektoversigt – hvad kan jeg her?	25
+
+6.1	Se projektdetaljer og leverandørkæder	25
+
+6.2	Vis medarbejdere på et projekt	25
+
+6.3	Tilføj underleverandør (dansk eller udenlandsk)	26
+
+6.4	Rediger oplysninger om underleverandør på projekt	29
+
+6.5	Ændre placering i leverandørhierarki	30
+
+6.6	Fjern leverandør uden underleverandør(er)	31
+
+7	Medarbejdere	33
+
+7.1	Opret ny medarbejder til leverandør	33
+
+7.2	Tildel rollen som administrator til eksisterende medarbejder	35
+
+7.3	Opret administrator på en underleverandør (ny medarbejder)	38
+
+7.4	Tilføj en eller flere eksisterende medarbejder(e) til projekt via Projektliste	39
+
+7.5	Tilføj en eller flere eksisterende medarbejder(e) til projekt via Leverandørliste	40
+
+7.6	Rediger oplysninger på medarbejder	45
+
+7.7	Fjern én eller flere medarbejder(e) fra projekt	47
+
+7.8	Fjern én eller flere medarbejder(e) fra leverandør	49
+
+7.9	Filtrer i medarbejderlisten på et projekt	50
+
+8	ID-kort	52
+
+9	Notifikationer	52
+
+
+
+
+
+
+
+Kom godt i gang 
+
+Denne brugervejledning er en step-by-step guide, der beskriver hvordan KMD Supplier Overview anvendes. Denne guide er henvendt til Entreprenører hos Einar Kornerup. 
+
+Indsæt evt. noget EK specifikt her, Martin 
+
+Hvorfor skal jeg anvende løsningen? 
+
+Indsæt evt. noget EK specifikt her, Martin – har skrevet lidt nedenfor, som du bare retter til, hvis det er helt tosset. 
+
+Forudsætningen for at kunne logge ind i KMD Supplier Overview er, at du er oprettet, som det der vil omtales Leverandøradministrator, i KMD Supplier Overview. En Leverandøradministrator er en medarbejder, der er tilknyttet en leverandør hos ét eller flere af Einar Kornerups projekter og som har administrative opgaver i KMD Supplier Overview. Det er de opgaver, som vil beskrives i denne brugervejledning.  
+
+Første login 
+
+Når du er oprettet i KMD Supplier Overview som Leverandøradministrator, får du en Velkomstmail, hvori det beskrives, hvordan du logger ind første gang.
+
+Andet login 
+
+Når du skal logge ind anden gang, skal du anvende det password, som du oprettede ved dit første login sammen med den e-mail, hvorpå du modtog Velkomstmailen. Du skal bruge felterne markeret på billedet nedenfor. Du får desuden en SMS med en engangskode, som du skal skrive ind i feltet der fremkommer i løsningen som trin 2. 
+
+
+
+Hvem kan oprette Leverandøradministratorer i Løsningen? 
+
+KMD Supplier Overview er bygget på logikken om, at en leverandøradministrator kan oprette nye leverandøradministratorer der enten er i egen virksomhed eller hos de virksomheder der agerer underleverandører til den givne virksomhed. Se illustration nedenfor, som viser invitationsflowet for Leverandøradministratorer. 
+
+
+
+
+
+Skabelon til brugerdokumentation
+
+Brugervejledningen er opdelt således, at de givne processer der kan udføres, har en overskrift, som herunder opdeles i trin, hvor handlingen beskrives og visualiseres med et skærmbillede. Se nedenstående tabel for struktur. 
+
+1
+
+Handling der foretages
+
+Skærmbillede fra Løsningen
+
+2
+
+Handling der foretages
+
+Skærmbillede fra Løsningen
+
+3
+
+Handling der foretages
+
+Skærmbillede fra Løsningen
+
+4
+
+Handling der foretages
+
+Skærmbillede fra Løsningen
+
+…
+
+…
+
+…
+
+
+
+På nogle skærmbilleder er der lavet en grøn markering for at hjælpe læseren til at vide, hvor i KMD Supplier Overview der skal klikkes eller foretages en handling. De steder i løsningen, hvor der angives medarbejderdata – som navn, fødselsdag, billede og telefonnummer, er der indsat hvide bokse for at skærme data. 
+
+Bemærk at der kan være skærmbilleder, der afviger en smule fra det du oplever, men hvor princippet er det samme. 
+
+
+
+Ikoner i Løsningen
+
+Herunder fremgår ikoner som optræder i løsningen, samt en afklaring af disse. 
+
+
+
+Klik på ikonet for at logge ud ad KMD Supplier Overview.
+
+
+
+Klik på ikonet for at se nye notifikationer eller din historik af handlinger.
+
+
+
+Handlingsikonet. Når der klikkes på ikonet, vises der flere forskellige handlingsmuligheder. Handlingsmulighederne differentieres alt efter, hvor i KMD Supplier Overview man klikker på det.
+
+
+
+Når der klikkes på ikonet, fremgår de eksakte tegn, der som udgangspunkt er skjult ved indtastning af adgangskode.
+
+
+
+Ikonet fremgår, når der er fejl eller mangler i nogle oplysninger. Eksempelvis manglende mobilnummer ved oprettelse af ny medarbejder med administratorrolle.
+
+
+
+Klik på ikonet for at redigere nogle oplysninger. Muligheden for at redigere oplysninger vil variere alt efter hvor i KMD Supplier Overview, der klikkes på ikonet. 
+
+
+
+Oplysningen er påkrævet.
+
+
+
+Skrivefeltet er låst og oplysningen kan ikke redigeres.
+
+
+
+
+
+
+
+Tilgå løsningen 
+
+KMD Supplier Overview tilgås af alle roller via følgende URL: www.ek.supplier-compliance.kmd.dk
+
+Log ind og log ud
+
+Fra Løsningens startside er det muligt at logge ind som AD-bruger. 
+
+Log ind (andet login) 
+
+
+
+1
+
+Naviger til KMD Supplier Overview’s startside med URL:  www.ek.supplier-compliance.kmd.dk 
+
+
+
+Login med din e-mail og oprettede password 
+
+
+
+
+
+2
+
+Du modtager en SMS, som skal indtastes i feltet ”SMS code”. 
+
+
+
+Du navigeres til din startside
+
+
+
+
+
+Log ud
+
+1
+
+Klik på log ud-ikonet øverst, i højre hjørne
+
+
+
+2
+
+Klik på ”Log ud” for at bekræfte
+
+
+
+
+
+Min virksomhed – Overblik 
+
+Overblik over din virksomhedsdetaljer 
+
+1
+
+Klik på ”Min virksomhed”, Her ses detaljer om virksomheder i topnavigationen.  
+
+
+
+2
+
+Klik på ”Projekter” for at se de projekter leverandøren er tilknyttet. 
+
+
+
+Leverandøren kan tilknyttes projektet af Einar Kornerup eller overliggende leverandører på projektet. 
+
+
+
+3
+
+Klik på ”Medarbejdere”
+
+
+
+Dashboard
+
+1
+
+Dashboardet i højre hjørne viser status på virksomhedens dokumenter
+
+
+
+Grøn = dokumentet er uploadet indenfor tidsfristen 
+
+Gul = dokumentet er ikke uploadet, men tidsfristen er ikke overskredet 
+
+Rød = dokumentet er ikke uploadet og tidsfristen er overskredet. 
+
+
+
+
+
+
+
+
+
+Min virksomhed – Projekter
+
+Denne fane viser projekter den givne leverandør er tilknyttet. 
+
+1
+
+Klik på ”Projekter” for at se de projekter KMD er tilknyttet. 
+
+
+
+KMD kan tilknyttes projektet af Einar Kornerup eller overliggende leverandører på projektet. 
+
+
+
+
+
+2
+
+Herfra kan du navigere til et projekt ved at klikke på projektet på listen.
+
+
+
+3
+
+Du ser nu det projekt og de detaljer der er relevante for dig på det givne projekt
+
+
+
+
+
+Min virksomhed – Medarbejdere 
+
+Denne fane viser de medarbejdere som er tilknyttet den givne leverandør. Her kan du se detaljer om, hvem der er aktive på projekter, hvem der har fået printet ID-kort og uploade dokumenter samt se status herpå via dashboard. 
+
+1
+
+Klik på ”Medarbejdere” for at se de medarbejdere der er oprettet på din virksomhed. 
+
+
+
+2
+
+Ved at klikke på ”opret medarbejder” knappen kan du oprette nye medarbejdere til din eller underliggende virksomhed. Se vejledning til den proces i afsnit 7.1
+
+
+
+3
+
+Når du har oprettet en medarbejder kan du uploade påkrævede dokumenter ved at klikke på handlingsikonet (…) 
+
+
+
+4
+
+Vælg dokumenttype
+
+
+
+
+
+5
+
+Vælg dokument
+
+
+
+
+
+6
+
+Upload dokument til løsningen
+
+
+
+7
+
+Klik på pilen uden for medarbejderen og se det eller de uploadede dokumenter og status herpå
+
+
+
+OBS: fyldteksten efter dokumentets navn vil slettes på sigt
+
+
+
+
+
+Vis dokument 
+
+1
+
+Klik på det markerede ikon
+
+
+
+OBS: fyldteksten efter dokumentets navn vil slettes på sigt
+
+
+
+2
+
+Dokumentet åbnes nu som preview i browseren
+
+
+
+
+
+
+
+Min virksomhed – Dokumenter 
+
+Her får du et overblik over de dokumenter der er uploadet på medarbejdere på virksomheden. 
+
+1
+
+Klik på ”Dokumenter” for at se de dokumenter der er uploadet for virksomhedens  
+
+
+
+
+
+Leverandører
+
+Opret dansk leverandør til leverandørliste
+
+Leverandørlisten består af de danske virksomheder, som er blevet importeret af enten Einar Kornerup eller underliggende leverandører. Det er kun muligt for dig at se detaljer og medarbejdere på de leverandører, som du selv har importeret eller som en overliggende leverandøradministrator har tilføjet under din virksomhed på et projekt. 
+
+1
+
+Gå til Leverandører i topnavigationen
+
+
+
+2
+
+Klik på ”Opret dansk leverandør” i højre side
+
+
+
+3
+
+Step 1: Opret leverandør ved at indtaste CVR-nummer og klik ”Næste” 
+
+
+
+
+
+
+
+ 
+
+
+
+4
+
+Step 2: Opret administrator på leverandør ved at udfylde formularen
+
+
+
+Billede kan enten uploades eller tages direkte via webcam-funktionaliteten
+
+
+
+OBS: Billede er ikke påkrævet ved oprettelse, men er påkrævet ved print af ID-kort. 
+
+
+
+Klik på ”næste” 
+
+
+
+Det er ligeledes muligt at klikke på ”Tilbage” hvis det ønskes at tilrette oplysninger.  
+
+
+
+
+
+
+
+	
+
+
+
+5
+
+Se Step 3: Overblik
+
+
+
+Det er muligt at klikke på ”Tilbage” hvis det ønskes at tilrette oplysninger.  
+
+
+
+
+
+
+
+6
+
+Leverandøren er nu oprettet på listen og leverandøradministratoren er knyttet til leverandørprofilen.
+
+
+
+
+
+Opret udenlandsk leverandør til leverandørliste 
+
+Leverandørlisten består af de udenlandske virksomheder, som er blevet importeret af enten Einar Kornerup eller underlæggende leverandører. Det er kun muligt for dig at se detaljer og medarbejdere på de leverandører, som du selv har importeret eller som en overliggende leverandøradministrator har tilføjet under din virksomhed på et projekt. 
+
+1
+
+Gå til Leverandører i topnavigationen
+
+
+
+2
+
+Klik på ”Udenlandsk leverandør”
+
+Og herefter ”Opret udenlandsk leverandør”
+
+
+
+3
+
+Step 1: Tilføj udenlandsk leverandør og udfyld navn, adresse, by/stat og land.
+
+
+
+Klik på ”Næste” i nederste højre hjørne
+
+
+
+4
+
+Step 2: Opret administrator på leverandør ved at udfylde formularen
+
+
+
+OBS: Billede er ikke påkrævet ved oprettelse, men er påkrævet ved print af ID-kort. 
+
+
+
+Klik på ”næste” 
+
+
+
+Det er ligeledes muligt at klikke på ”Tilbage” hvis det ønskes at tilrette oplysninger.  
+
+
+
+
+
+
+
+5
+
+Se Step 3: Overblik
+
+
+
+Det er muligt at klikke på ”Tilbage” hvis det ønskes at tilrette oplysninger.  
+
+
+
+
+
+6
+
+Klik på ”Godkend” og leverandøren kan fremsøges på listen over udenlandske leverandører
+
+
+
+
+
+
+
+Projektoversigt – hvad kan jeg her? 
+
+Se projektdetaljer og leverandørkæder 
+
+1
+
+Se projektdetaljer og leverandørkæder 
+
+
+
+
+
+Vis medarbejdere på et projekt
+
+1
+
+Klik på medarbejdere  
+
+
+
+2
+
+Her ses de medarbejdere som er tilføjet projektet, som enten tilhører din virksomhed eller underlæggende leverandørers.  
+
+
+
+
+
+
+
+
+
+Tilføj underleverandør (dansk eller udenlandsk)
+
+Idet din virksomhed og dig, som medarbejder/leverandøradministrator, er tilføjet til et projekt, kan du tilføje leverandører i et underliggende hierarki. Bemærk at leverandøren, dansk eller udenlandsk, skal være tilføjet til leverandørlisten jf. punkt 5.1 og 5.2. 
+
+1
+
+Gå til et projekt
+
+
+
+3
+
+Klik på ”Tilføj leverandør”
+
+
+
+4
+
+Tilføj leverandør formular åbnes og herefter klikkes der på ”Find leverandør”
+
+
+
+5
+
+Herefter åbner en pop-up box, hvor leverandøren kan søges frem.
+
+
+
+6
+
+Vælg den korrekte leverandør fra listen og klik på “Tilføj” i højre side
+
+
+
+7
+
+Indtast Entreprisen/Opgavens art samt Ansvarlig Leverandør
+
+
+
+
+
+Klik på ‘Godkend’, efter at alle informationer er udfyldt i løsningen.
+
+
+
+
+
+Rediger oplysninger om underleverandør på projekt
+
+
+
+1
+
+Gå til et projekt 
+
+
+
+2
+
+Klik på handlingsikonet ud for en leverandør og klik på ”Rediger oplysninger”
+
+
+
+3
+
+Rediger oplysninger
+
+
+
+Klik på ”Gem ændringer”, og leverandøroplys-ninger er opdateret
+
+
+
+
+
+Ændre placering i leverandørhierarki
+
+Bemærkning: Det er ikke muligt at ændre placeringen på en leverandør med tilkoblede underleverandører eller medarbejdere 
+
+1
+
+Gå til et Projekt 
+
+
+
+2
+
+Under ”Hierarki” fremgår alle leverandører
+
+
+
+3
+
+Klik på handlingsikonet ud for en leverandør og vælg “Rediger oplysninger” 
+
+
+
+4
+
+Under “Ansvarlig leverandør” vælges en anden leverandør for at ændre placering i hierarkiet. 
+
+
+
+I listen fremgår kun leverandører som er tilknyttet det pågældende projekt og som du har rettigheder til at se. 
+
+
+
+
+
+Klik på ”Gem”
+
+
+
+
+
+Fjern leverandør uden underleverandør(er)
+
+1
+
+Gå til et projekt
+
+
+
+2
+
+Under ”Hierarki” fremgår alle leverandører
+
+
+
+
+
+3
+
+Find den leverandør, som skal fjernes fra projektet og klik på handlingsikonet herudfor vælg ”Fjern Leverandør”
+
+ 
+
+
+
+4
+
+Klik på ”Slet Leverandør”
+
+
+
+
+
+Medarbejdere
+
+Brugervejledning herunder relaterer sig til funktioner samt processer som vedrører medarbejdere i løsningen.
+
+Opret ny medarbejder til leverandør
+
+
+
+1
+
+Hvis du skal tilføje en medarbejder til din virksomhed, skal du gå til ”Min virksomhed” og klik på fanen medarbejdere 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.1
+
+Hvis du skal tilføje medarbejdere til en underliggende leverandør skal denne findes via fanen ”Leverandører”, hvorefter du skal klikke dig ind på dennes virksomhedsside.
+
+
+
+
+
+
+
+2
+
+Klik på ”Opret Medarbejder”
+
+
+
+3
+
+Udfyld formularen med medarbejder-oplysninger
+
+
+
+
+
+OBS: Billede er ikke påkrævet ved oprettelse, men er påkrævet ved bestilling af ID-kort.  
+
+
+
+Gem ved at klikke ”Gem og opret”
+
+
+
+
+
+Tildel rollen som administrator til eksisterende medarbejder 
+
+Det er altid påkrævet at tilføje en administrator ved oprettelse af en leverandør, dog kan der tilføjes flere administratorer som angivet nedenfor. 
+
+
+
+1
+
+Klik på “Leverandører” i topnavigationen og søg på den pågældende leverandør, hvor en medarbejder skal tildeles rollen som administrator. 
+
+
+
+
+
+2
+
+Klik på medarbejder-fanen og klik på handlingsikonet ud fra den medarbejder, som skal have tildelt rollen som administrator og vælg ”Rediger oplysninger” 
+
+
+
+3
+
+Medarbejderformularen åbnes. 
+
+
+
+Kryds administrator-boksen af og udfyld mobilnummer og e-mail. Klik herefter på ”Gem og opret”
+
+
+
+
+
+5
+
+Handlingen kan ligeledes udføres fra medarbejderens profil ved klik på redigeringsikonet, som vil åbne medarbejderformularen vist i tabellens trin 3.
+
+
+
+
+
+Opret administrator på en underleverandør (ny medarbejder)
+
+Det er altid påkrævet at tilføje en administrator ved oprettelse af en leverandør, dog kan der tilføjes flere administratorer. Det er dette tilfælde, som er beskrevet nedenstående. 
+
+1
+
+Klik på “Leverandører” i topnavigationen og søg på den pågældende leverandør, hvor den nye medarbejder med administratorrettigheder skal tilføjes. 
+
+
+
+
+
+2
+
+Klik på medarbejderfanen og videre ”Opret medarbejder”
+
+
+
+3
+
+Udfyld formular med medarbejder-oplysninger 
+
+
+
+Klik herefter ”Gem og opret”
+
+
+
+OBS: Billede er ikke påkrævet ved oprettelse, men er påkrævet ved bestilling af ID-kort.  
+
+
+
+
+
+Tilføj en eller flere eksisterende medarbejder(e) til projekt via Projektliste
+
+
+
+1
+
+Gå til et projekt 
+
+
+
+2
+
+Klik på ”Medarbejdere” fanen og herefter på “Tilføj medarbejder”
+
+
+
+3
+
+Vælg Ansvarlig leverandør, Medarbejder, Medearbejderens ansvar og startdato og klik ”Gem og opret”
+
+
+
+
+
+
+
+Tilføj en eller flere eksisterende medarbejder(e) til projekt via Leverandørliste
+
+
+
+Bemærkning: Der kan tilføjes en eller flere medarbejdere til et projekt via leverandørlisten. 
+
+1
+
+Gå til Leverandører i topnavigationen
+
+
+
+2
+
+Klik ind på den pågældende leverandør fra listen
+
+
+
+3
+
+Klik på “Medarbejder” fanen
+
+
+
+
+
+4a
+
+Ved tilføjelse af en medarbejder føres musen over handlingsikonet i højre side
+
+
+
+
+
+
+
+4b
+
+Hvis der ønskes at tilføje flere medarbejdere til et projekt på én gang, så sæt flueben ud for flere medarbejdere, klik på handlingsikonet i toppen 
+
+
+
+5
+
+Tilføj en eller flere medarbejder ved videre at klikke på ”Tilføj medarbejder til projektet”
+
+
+
+6
+
+Udfyld formularen og vælg et projekt fra listen, (bemærk at der her kun fremgår de projekter som den specifikke leverandør er tilknyttet).
+
+
+
+Vælg “Ansvarlig leverandør” og Entreprisens/opgavens art.
+
+Klik på ”Gem og opret”
+
+
+
+
+
+Rediger oplysninger på medarbejder
+
+1
+
+Klik på “Leverandører” i topnavigationen og søg på den pågældende leverandør, hvor medarbejderoplysninger skal redigeres  
+
+
+
+
+
+2
+
+Klik på medarbejder-fanen og klik på handlingsikonet ud fra den medarbejder, hvis oplysninger skal redigeres.  
+
+
+
+3
+
+Medarbejder-formularen åbnes og medarbejderens oplysninger kan redigeres. 
+
+
+
+Klik herefter ”gem og opret”
+
+
+
+
+
+4
+
+Handlingen kan ligeledes udføres fra medarbejderens profil og ved klik på redigeringsikonet, som vil åbne medarbejderformularen vist i trin 3.
+
+
+
+
+
+Fjern én eller flere medarbejder(e) fra projekt
+
+1
+
+Gå til et projekt
+
+
+
+2
+
+Klik på ”Medarbejdere” fanen 
+
+
+
+3a
+
+Hvis det ønskes at fjerne én medarbejder fra et projekt, så klik på handlingsikonet ud for en medarbejder og klik på ”Fjern medarbejder”
+
+
+
+
+
+
+
+3b
+
+Hvis det ønskes at fjerne flere medarbejdere fra projektet på én gang, så sæt flueben ud for flere medarbejdere, klik på handlingsikonet i toppen og vælg ”Fjern medarbejder”.
+
+
+
+4
+
+Klik på ”Slet” for at bekræfte
+
+
+
+
+
+
+
+
+
+Fjern én eller flere medarbejder(e) fra leverandør
+
+1
+
+Gå til din egen virksomhed eller en anden leverandør via leverandørlisten
+
+
+
+2
+
+Klik på ”Medarbejdere” 
+
+
+
+Bemærk: hvis der ønskes flere medarbejder slettet, skal disse markeres og handlingsikonet i toppen af listen skal benyttes.  
+
+
+
+4
+
+Klik på ”Slet” for at bekræfte
+
+
+
+
+
+
+
+Filtrer i medarbejderlisten på et projekt
+
+1
+
+Gå til et projekt
+
+
+
+2
+
+Klik på fanen ”Medarbejdere” under hovedleverandør-sektionen
+
+
+
+3
+
+Klik på ”Filtrer” og vælg ønskede filtre. Afslut med at trykke på “Gem valgte”
+
+
+
+
+
+4
+
+Medarbejderlisten vil nu fremgå med de valgte filtre fra forrige trin.
+
+
+
+
+
+ID-kort
+
+
+
+Notifikationer 
+
+En bruger kan kun tilgå de notifikationer, som vedrører processer, der er startet af brugeren eller som involverer brugeren.
+
+1
+
+Klik på notifikationsikonet i højre hjørne for at tilgå dine notifikationer
+
+
+
+
+
+2
+
+Her er det muligt at anvende søgefunktionaliteten, hvis det ønskes at søge efter en specifik notifikation. Ellers fremgår notifikationer af denne liste med en status på disse. 
+
+
+
+3
+
+Grøn indikerer en succes-notifikationRød indikerer en fejl-notifikation
+
+
+
+
+
+
+
+
+
