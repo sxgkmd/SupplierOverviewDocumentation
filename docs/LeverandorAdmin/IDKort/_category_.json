@@ -1,0 +1,8 @@
+{
+  "label": "ID-kort",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Vejledning til bestilling, aktivering, deaktivering og print af ID-kort. Tilgængelige funktioner afhænger af projektets ID-klausul."
+  }
+}

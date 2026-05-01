@@ -32,6 +32,11 @@ const config = {
 
   onBrokenLinks: 'throw',
 
+  customFields: {
+    // URL til Azure Function chat endpoint (sæt via CHAT_API_URL miljøvariabel ved build)
+    chatApiUrl: process.env.CHAT_API_URL || '',
+  },
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -107,6 +112,12 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Vejledninger',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'leverandorAdminSidebar',
+            position: 'left',
+            label: 'Leverandøradministrator',
           },
         ],
       },

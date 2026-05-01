@@ -1,0 +1,8 @@
+{
+  "label": "Leverandører",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Klik på Leverandører i navigationsmenuen for at komme til leverandøroversigten.\nLøsningen skelner mellem danske leverandører og udenlandske leverandører. Vælg herunder om du ønsker at se vejledningen for oprettelse af dansk eller udenlandsk leverandør."
+  }
+}
