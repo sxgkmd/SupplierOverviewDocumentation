@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Inaktiver / Genaktiver ID-kort
 
-*Tilgængelig når projektet har ID Klausul: "Registering af medarbejdere og brug af ID-kort."*
+*Kun tilgængelig når projektet har ID Klausul: "Registering af medarbejdere og brug af ID-kort."*
 
 Ved at inaktivere et ID-kort på et projekt, kan du blokere medarbejderen i at få adgang til byggepladsen via adgangspunkterne. 
 Det er kun på det specifikke projekt, at adgangen blokeres. 

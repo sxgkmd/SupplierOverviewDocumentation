@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Print ID-kort lokalt
 
-*Tilgængelig når projektet har ID-klausul "Registering af medarbejdere".*
+*Kun tilgængelig når projektet har ID-klausul "Registering af medarbejdere".*
 
 **1.** Åbn projektet og naviger til projektets medarbejderliste.
 

@@ -1,0 +1,8 @@
+{
+  "label": "Dokumenter",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Vejledning til at oprette, redigere og fjerne dokumenter."
+  }
+}

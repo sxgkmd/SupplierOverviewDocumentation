@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Bestil ID-kort
 
-*Tilgængelig når projektet har ID Klausul: "Registering af medarbejdere og brug af ID-kort."*
+*Kun tilgængelig når projektet har ID Klausul: "Registering af medarbejdere og brug af ID-kort."*
 
 **1.** Åbn projektet og naviger til projektets medarbejderliste.
 
